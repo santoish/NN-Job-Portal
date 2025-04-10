@@ -8,7 +8,6 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-amber-200: oklch(92.4% 0.12 95.746);
     --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -190,8 +189,8 @@
   .bg-\[\#f8f8fa\] {
     background-color: #f8f8fa;
   }
-  .bg-amber-200 {
-    background-color: var(--color-amber-200);
+  .bg-cover {
+    background-size: cover;
   }
   .px-12 {
     padding-inline: calc(var(--spacing) * 12);
@@ -213,6 +212,18 @@
 .font-poppins {
   font-family: "Poppins",sans-serif;
   font-weight: 500;
+}
+.primary-blue-color {
+  color: #36b1fd;
+}
+.dark-blue {
+  color: #023360;
+}
+.light-white {
+  color: #f8f8fa;
+}
+.brown {
+  color: #aa9769;
 }
 @property --tw-rotate-x {
   syntax: "*";
